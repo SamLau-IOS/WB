@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60A108411CF2F16D00AFC281 /* LSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A108401CF2F16D00AFC281 /* LSHomeViewController.m */; };
 		60CABB7E1CF2EE1B00B6742A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CABB7D1CF2EE1B00B6742A /* main.m */; };
 		60CABB811CF2EE1B00B6742A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CABB801CF2EE1B00B6742A /* AppDelegate.m */; };
 		60CABB891CF2EE1B00B6742A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CABB881CF2EE1B00B6742A /* Assets.xcassets */; };
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		60A108301CF2EF7300AFC281 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		60A1083F1CF2F16D00AFC281 /* LSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHomeViewController.h; sourceTree = "<group>"; };
+		60A108401CF2F16D00AFC281 /* LSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSHomeViewController.m; sourceTree = "<group>"; };
 		60CABB791CF2EE1B00B6742A /* WB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CABB7D1CF2EE1B00B6742A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60CABB7F1CF2EE1B00B6742A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 		60A108371CF2F04200AFC281 /* Home 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				60A1083F1CF2F16D00AFC281 /* LSHomeViewController.h */,
+				60A108401CF2F16D00AFC281 /* LSHomeViewController.m */,
 			);
 			path = "Home 首页";
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 		60CABB711CF2EE1B00B6742A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LS;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Sam;
 				TargetAttributes = {
@@ -312,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60A108411CF2F16D00AFC281 /* LSHomeViewController.m in Sources */,
 				60CABB811CF2EE1B00B6742A /* AppDelegate.m in Sources */,
 				60CABB7E1CF2EE1B00B6742A /* main.m in Sources */,
 			);
