@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6061F94B1CF300D400C9E860 /* LSComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6061F94A1CF300D400C9E860 /* LSComposeViewController.m */; };
+		6061F94E1CF300DE00C9E860 /* LSDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6061F94D1CF300DE00C9E860 /* LSDiscoverViewController.m */; };
+		6061F9511CF3010C00C9E860 /* LSMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6061F9501CF3010C00C9E860 /* LSMessageViewController.m */; };
+		6061F9541CF3012300C9E860 /* LSProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6061F9531CF3012300C9E860 /* LSProfileViewController.m */; };
+		6061F9571CF3018200C9E860 /* LSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6061F9561CF3018200C9E860 /* LSMainViewController.m */; };
 		60A108411CF2F16D00AFC281 /* LSHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A108401CF2F16D00AFC281 /* LSHomeViewController.m */; };
 		60CABB7E1CF2EE1B00B6742A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CABB7D1CF2EE1B00B6742A /* main.m */; };
 		60CABB811CF2EE1B00B6742A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CABB801CF2EE1B00B6742A /* AppDelegate.m */; };
@@ -25,6 +30,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6061F9491CF300D400C9E860 /* LSComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSComposeViewController.h; sourceTree = "<group>"; };
+		6061F94A1CF300D400C9E860 /* LSComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSComposeViewController.m; sourceTree = "<group>"; };
+		6061F94C1CF300DE00C9E860 /* LSDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDiscoverViewController.h; sourceTree = "<group>"; };
+		6061F94D1CF300DE00C9E860 /* LSDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDiscoverViewController.m; sourceTree = "<group>"; };
+		6061F94F1CF3010C00C9E860 /* LSMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMessageViewController.h; sourceTree = "<group>"; };
+		6061F9501CF3010C00C9E860 /* LSMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMessageViewController.m; sourceTree = "<group>"; };
+		6061F9521CF3012300C9E860 /* LSProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSProfileViewController.h; sourceTree = "<group>"; };
+		6061F9531CF3012300C9E860 /* LSProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSProfileViewController.m; sourceTree = "<group>"; };
+		6061F9551CF3018200C9E860 /* LSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSMainViewController.h; sourceTree = "<group>"; };
+		6061F9561CF3018200C9E860 /* LSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSMainViewController.m; sourceTree = "<group>"; };
 		60A108301CF2EF7300AFC281 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		60A1083F1CF2F16D00AFC281 /* LSHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSHomeViewController.h; sourceTree = "<group>"; };
 		60A108401CF2F16D00AFC281 /* LSHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSHomeViewController.m; sourceTree = "<group>"; };
@@ -101,6 +116,8 @@
 		60A108351CF2F04200AFC281 /* Compose 发布微博 */ = {
 			isa = PBXGroup;
 			children = (
+				6061F9491CF300D400C9E860 /* LSComposeViewController.h */,
+				6061F94A1CF300D400C9E860 /* LSComposeViewController.m */,
 			);
 			path = "Compose 发布微博";
 			sourceTree = "<group>";
@@ -108,6 +125,8 @@
 		60A108361CF2F04200AFC281 /* Discover 发现 */ = {
 			isa = PBXGroup;
 			children = (
+				6061F94C1CF300DE00C9E860 /* LSDiscoverViewController.h */,
+				6061F94D1CF300DE00C9E860 /* LSDiscoverViewController.m */,
 			);
 			path = "Discover 发现";
 			sourceTree = "<group>";
@@ -124,6 +143,8 @@
 		60A108381CF2F04200AFC281 /* Main 主要 */ = {
 			isa = PBXGroup;
 			children = (
+				6061F9551CF3018200C9E860 /* LSMainViewController.h */,
+				6061F9561CF3018200C9E860 /* LSMainViewController.m */,
 			);
 			path = "Main 主要";
 			sourceTree = "<group>";
@@ -131,6 +152,8 @@
 		60A108391CF2F04200AFC281 /* Message 消息 */ = {
 			isa = PBXGroup;
 			children = (
+				6061F94F1CF3010C00C9E860 /* LSMessageViewController.h */,
+				6061F9501CF3010C00C9E860 /* LSMessageViewController.m */,
 			);
 			path = "Message 消息";
 			sourceTree = "<group>";
@@ -152,6 +175,8 @@
 		60A1083C1CF2F04200AFC281 /* Profile 我 */ = {
 			isa = PBXGroup;
 			children = (
+				6061F9521CF3012300C9E860 /* LSProfileViewController.h */,
+				6061F9531CF3012300C9E860 /* LSProfileViewController.m */,
 			);
 			path = "Profile 我";
 			sourceTree = "<group>";
@@ -318,9 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6061F9541CF3012300C9E860 /* LSProfileViewController.m in Sources */,
+				6061F94B1CF300D400C9E860 /* LSComposeViewController.m in Sources */,
 				60A108411CF2F16D00AFC281 /* LSHomeViewController.m in Sources */,
 				60CABB811CF2EE1B00B6742A /* AppDelegate.m in Sources */,
+				6061F9571CF3018200C9E860 /* LSMainViewController.m in Sources */,
+				6061F9511CF3010C00C9E860 /* LSMessageViewController.m in Sources */,
 				60CABB7E1CF2EE1B00B6742A /* main.m in Sources */,
+				6061F94E1CF300DE00C9E860 /* LSDiscoverViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
