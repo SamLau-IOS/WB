@@ -54,6 +54,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60A108311CF2F04200AFC281 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60A108321CF2F04200AFC281 /* Model 模型 */,
+				60A108331CF2F04200AFC281 /* Tools 工具 */,
+				60A108341CF2F04200AFC281 /* View 视图_控制器 */,
+				60A1083E1CF2F04200AFC281 /* ViewModel 视图模型 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60A108321CF2F04200AFC281 /* Model 模型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model 模型";
+			sourceTree = "<group>";
+		};
+		60A108331CF2F04200AFC281 /* Tools 工具 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tools 工具";
+			sourceTree = "<group>";
+		};
+		60A108341CF2F04200AFC281 /* View 视图_控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				60A108351CF2F04200AFC281 /* Compose 发布微博 */,
+				60A108361CF2F04200AFC281 /* Discover 发现 */,
+				60A108371CF2F04200AFC281 /* Home 首页 */,
+				60A108381CF2F04200AFC281 /* Main 主要 */,
+				60A108391CF2F04200AFC281 /* Message 消息 */,
+				60A1083A1CF2F04200AFC281 /* NewFeature 新特性 */,
+				60A1083B1CF2F04200AFC281 /* OAuth 用户登录 */,
+				60A1083C1CF2F04200AFC281 /* Profile 我 */,
+				60A1083D1CF2F04200AFC281 /* Temp 临时 */,
+			);
+			path = "View 视图_控制器";
+			sourceTree = "<group>";
+		};
+		60A108351CF2F04200AFC281 /* Compose 发布微博 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Compose 发布微博";
+			sourceTree = "<group>";
+		};
+		60A108361CF2F04200AFC281 /* Discover 发现 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Discover 发现";
+			sourceTree = "<group>";
+		};
+		60A108371CF2F04200AFC281 /* Home 首页 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home 首页";
+			sourceTree = "<group>";
+		};
+		60A108381CF2F04200AFC281 /* Main 主要 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Main 主要";
+			sourceTree = "<group>";
+		};
+		60A108391CF2F04200AFC281 /* Message 消息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Message 消息";
+			sourceTree = "<group>";
+		};
+		60A1083A1CF2F04200AFC281 /* NewFeature 新特性 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "NewFeature 新特性";
+			sourceTree = "<group>";
+		};
+		60A1083B1CF2F04200AFC281 /* OAuth 用户登录 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "OAuth 用户登录";
+			sourceTree = "<group>";
+		};
+		60A1083C1CF2F04200AFC281 /* Profile 我 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile 我";
+			sourceTree = "<group>";
+		};
+		60A1083D1CF2F04200AFC281 /* Temp 临时 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Temp 临时";
+			sourceTree = "<group>";
+		};
+		60A1083E1CF2F04200AFC281 /* ViewModel 视图模型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ViewModel 视图模型";
+			sourceTree = "<group>";
+		};
 		60CABB701CF2EE1B00B6742A = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +186,7 @@
 		60CABB7B1CF2EE1B00B6742A /* WB */ = {
 			isa = PBXGroup;
 			children = (
+				60A108311CF2F04200AFC281 /* Classes */,
 				60CABB7F1CF2EE1B00B6742A /* AppDelegate.h */,
 				60CABB801CF2EE1B00B6742A /* AppDelegate.m */,
 				60CABB881CF2EE1B00B6742A /* Assets.xcassets */,
